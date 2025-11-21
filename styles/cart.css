@@ -37,6 +37,39 @@ header ul li a {
     text-decoration: none;
 }
 
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 768px) {
+
+    /* Header */
+    header ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        font-size: 1em;
+        padding: 10px 0;
+    }
+
+    /* Heading */
+    .heading {
+        padding: 50px 20px;
+    }
+
+    .heading h1 {
+        font-size: 2.5em; /* smaller title */
+        text-align: center;
+    }
+
+    .heading p {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .heading button {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+}
+
 .cart {
   font-family: 'Noto Sans JP', sans-serif;
   background-color: #f8f8f8;
@@ -166,3 +199,33 @@ footer a {
     text-align: center;
 }
 
+/* ===== FOOTER MOBILE RESPONSIVE ===== */
+@media (max-width: 768px) {
+
+    footer {
+        flex-direction: column;      /* stack footer sections vertically */
+        gap: 20px;                   /* smaller gap */
+        padding: 20px 15px;          /* reduce side padding */
+        text-align: center;           /* center text for mobile */
+    }
+
+    footer h3 {
+        font-size: 1.2em;            /* smaller heading */
+        padding-bottom: 10px;
+    }
+
+    footer div p {
+        line-height: 1.6;            /* tighter line spacing */
+        padding-top: 5px;
+    }
+
+    footer a {
+        display: inline-block;       /* prevent wrapping issues */
+        margin-bottom: 5px;
+    }
+
+    .copyRight {
+        font-size: 0.9em;
+        padding-top: 15px;
+    }
+}

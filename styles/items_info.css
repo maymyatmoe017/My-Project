@@ -36,6 +36,39 @@ header ul li a {
     text-decoration: none;
 }
 
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 768px) {
+
+    /* Header */
+    header ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        font-size: 1em;
+        padding: 10px 0;
+    }
+
+    /* Heading */
+    .heading {
+        padding: 50px 20px;
+    }
+
+    .heading h1 {
+        font-size: 2.5em; /* smaller title */
+        text-align: center;
+    }
+
+    .heading p {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .heading button {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+}
+
 /* items_info */
 .info {
     display: flex;
@@ -99,6 +132,43 @@ button:hover {
   background-color: rgba(255,255,255,1);
 }
 
+/* MOBILE */
+@media (max-width: 768px) {
+
+    .info {
+        flex-direction: column;   /* stack image + text */
+        gap: 30px;
+        padding: 0 20px;
+        margin: 20px auto;
+    }
+
+    .slider {
+        width: 100%;
+        height: auto;
+    }
+
+    .slides img {
+        width: 100%;
+        height: auto;   /* keep aspect ratio */
+    }
+
+    .text h3 {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .text p {
+        font-size: 1rem;
+        line-height: 1.8;
+    }
+
+    button.prev, button.next {
+        font-size: 1.5rem;
+        padding: 3px 7px;
+    }
+}
+
+
 /* footer */
 footer {
     /* border-top: 1px dotted black; */
@@ -132,4 +202,35 @@ footer a {
 .copyRight {
     width: 100%;
     text-align: center;
+}
+
+/* ===== FOOTER MOBILE RESPONSIVE ===== */
+@media (max-width: 768px) {
+
+    footer {
+        flex-direction: column;      /* stack footer sections vertically */
+        gap: 20px;                   /* smaller gap */
+        padding: 20px 15px;          /* reduce side padding */
+        text-align: center;           /* center text for mobile */
+    }
+
+    footer h3 {
+        font-size: 1.2em;            /* smaller heading */
+        padding-bottom: 10px;
+    }
+
+    footer div p {
+        line-height: 1.6;            /* tighter line spacing */
+        padding-top: 5px;
+    }
+
+    footer a {
+        display: inline-block;       /* prevent wrapping issues */
+        margin-bottom: 5px;
+    }
+
+    .copyRight {
+        font-size: 0.9em;
+        padding-top: 15px;
+    }
 }
