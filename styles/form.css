@@ -1,0 +1,77 @@
+/* overall */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+header {
+    margin: 0;
+    background-color: #f7b4cb;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+header ul {
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+    list-style: none;
+    margin: auto;
+    font-size: 1.2em;
+    /*font-family: 'Courier New', Courier, monospace;*/
+    font-family: Arial, sans-serif;
+    /*font-family: "Pacifico", cursive;*/
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+header ul li a {
+    color: black;        /* Text color */
+    text-decoration: none;
+}
+
+/*body {
+  font-family: "Poppins", sans-serif;
+  background: #fff8fa;
+  margin: 0;
+  padding: 40px;
+}*/
+h2 { color: #d87fa0; margin-bottom: 10px; }
+.container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: 50%;
+  margin: 40px auto; /* centers container horizontally and adds vertical spacing */
+  display: flex; /* needed if using justify-content & align-items */
+  flex-direction: column; /* stack children vertically */
+  justify-content: center; /* centers children vertically */
+  align-items: center; /* centers children horizontally */
+  gap: 15px; /* optional: adds spacing between form elements */
+}
+
+input, textarea, button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+button {
+  background: #d87fa0;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover { background: #c06e8b; }
+.readonly { background: #f9f9f9; }

@@ -1,0 +1,105 @@
+[
+  {
+    "id": 1,
+    "name": "Hat",
+    "price": 4000,
+    "waiting": "1 week",
+    "colors": "Customize",
+    "images": [
+      "hat/094a4df6-9224-49b7-8bb9-e6d8703a247f.jpg",
+      "hat/263ca211-337d-467e-be26-c2572f841315.jpg"
+    ]
+  },
+
+  {
+    "id": 2,
+    "name": "Hat",
+    "price": 4000,
+    "waiting": "1 week",
+    "colors": "Customize",
+    "images": [
+      "hat/6599390e-48f5-4bec-9922-82562b87ce79.jpg",
+      "hat/263ca211-337d-467e-be26-c2572f841315.jpg"
+    ]
+  },
+
+  {
+    "id": 3,
+    "name": "Hat",
+    "price": 4000,
+    "waiting": "1 week",
+    "colors": "Customize",
+    "images": [
+      "hat/f662d873-45e2-44db-ae8c-a446ca4d9656.jpg",
+      "hat/3e3d58dc-c784-4ac2-9fec-ead1b95e3013.jpg",
+      "hat/767e90a4-6c05-4740-b866-e868d8c2e886.jpg",
+      "hat/ae7d1439-3585-44e1-81df-1b85c7dba198.jpg"
+    ]
+  },
+
+  {
+    "id": 4,
+    "name": "Hat",
+    "price": 4000,
+    "waiting": "1 week",
+    "colors": "Customize",
+    "images": [
+      "hat/6002caf8-63f2-458b-84ad-e930f6914e00.jpg"
+    ]
+  },
+
+  {
+    "id": 5,
+    "name": "Hat",
+    "price": 4000,
+    "waiting": "1 week",
+    "colors": "Customize",
+    "images": [
+      "hat/13784318-e150-42f2-87f8-aa7c75883b6d.jpg"
+    ]
+  },
+
+  {
+    "id": 6,
+    "name": "Hat",
+    "price": 4000,
+    "waiting": "1 week",
+    "colors": "Customize",
+    "images": [
+      "hat/ae73435d-6cb8-4f92-aa98-7bddb58a3587.jpg"
+    ]
+  },
+
+  {
+    "id": 7,
+    "name": "Hat",
+    "price": 4000,
+    "waiting": "1 week",
+    "colors": "Customize",
+    "images": [
+      "hat/c5f74f29-ed68-4d00-b4e4-0823758a9355.jpg"
+    ]
+  },
+
+  {
+    "id": 8,
+    "name": "Hat",
+    "price": 4000,
+    "waiting": "1 week",
+    "colors": "Customize",
+    "images": [
+      "hat/e6a786bb-5157-484c-94fd-e837c36841b9.jpg"
+    ]
+  },
+
+  {
+    "id": 9,
+    "name": "Hat",
+    "price": 7000,
+    "waiting": "1 week",
+    "colors": "Customize",
+    "images": [
+      "hat/263ca211-337d-467e-be26-c2572f841315.jpg"
+    ]
+  }
+]

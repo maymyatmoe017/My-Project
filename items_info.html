@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/items_info.css">
+    <title>CROCHET_DIARY | ONLINE_SHOP</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="crochet_diary.html">Home</a></li>
+                <li><a href="crochet_diary.html">Shop</a></li>
+                <li><a href="login.html" id="loginNav">Log in</a></li>
+                <li><a href="cart.html">🛒 Go to Cart</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div section="info">
+            <div class="info">
+                <!-- img slides -->
+                <div class="slider">
+                    <div class="slides">
+                        <img src="amigurumi/8ab0fac4-3bb6-4c65-89c9-f5159f0b37e1.jpg" alt="libra" class="active">
+                        <img src="amigurumi/f85541db-b3cc-4849-a4ce-1b80b22e311b.jpg" alt="libra">
+                    </div>
+
+                    <!-- navigation buttons -->
+                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button> <!-- &#10094(< left arrow symbol)-->
+                    <button class="next" onclick="moveSlide(1)">&#10095;</button> <!-- &#10095(> right arrow symbol)-->
+                </div>
+
+                <div class="text">
+                    <h3>Describtion</h3>
+                    <p>Price - ¥ 3000<br>Waiting time - 1 week<br>Available color - </p>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer id="contact">
+        <div class="payment">
+            <h3>Payment Method</h3>
+            <p>We only accept prepaid and <strong>PayPay</strong> as the payment method.<br>
+                If you place an order, we will reply with details by email.
+            </p>
+        </div>
+
+        <div class="delivery">
+            <h3>Delivery Method</h3>
+            <p>Each item will be shipped as described in detail page.<br>
+                Delivery may vary depending on the number of your orders.<br>
+            </p>
+        </div>
+
+        <div class="contact">
+            <h3>Contact</h3>
+            <p>Please contact us anytime.<br>
+                <a href="mailto:crochetdiary2105@gmail.com">crochetdiary2105@gmail.com</a><br>
+                <a href="https://www.instagram.com/crochet.diary_21?igsh=MWczYzEyMXVtNW56aA%3D%3D&utm_source=qr"
+                    target="_blank">crochet.diary_21</a>
+            </p>
+        </div>
+
+        <div class="copyRight">
+            <p><small>Copyright &copy; 2025 Crochet Diary. All Rights Reserved.</small></p>
+        </div>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/cart.css">
+    <title>CROCHET_DIARY | ONLINE_SHOP</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="crochet_diary.html">Home</a></li>
+                <li><a href="crochet_diary.html">Shop</a></li>
+                <li><a href="login.html" id="loginNav">Log in</a></li>
+                <li><a href="cart.html">🛒 Go to Cart</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="cart">
+            <h2>Shopping Cart</h2>
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items"></tbody>
+            </table>
+
+            <div class="cart-total">
+                <p>Total: <span id="cart-total">¥0</span></p>
+                <button id="checkout-btn">Proceed to Order</button>
+            </div>
+        </div>
+    </main>
+
+    <footer id="contact">
+        <div class="payment">
+            <h3>Payment Method</h3>
+            <p>We only accept prepaid and <strong>PayPay</strong> as the payment method.<br>
+                If you place an order, we will reply with details by email.
+            </p>
+        </div>
+
+        <div class="delivery">
+            <h3>Delivery Method</h3>
+            <p>Each item will be shipped as described in detail page.<br>
+                Delivery may vary depending on the number of your orders.<br>
+            </p>
+        </div>
+
+        <div class="contact">
+            <h3>Contact</h3>
+            <p>Please contact us anytime.<br>
+                <a href="mailto:crochetdiary2105@gmail.com">crochetdiary2105@gmail.com</a><br>
+                <a href="https://www.instagram.com/crochet.diary_21?igsh=MWczYzEyMXVtNW56aA%3D%3D&utm_source=qr"
+                    target="_blank">crochet.diary_21</a>
+            </p>
+        </div>
+
+        <div class="copyRight">
+            <p><small>Copyright &copy; 2025 Crochet Diary. All Rights Reserved.</small></p>
+        </div>
+    </footer>
+
+    <!-- Firebase & EmailJS scripts -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="cart.js"></script>
+</body>
+
+</html>

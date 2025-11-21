@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/items.css">
+  <title>CROCHET_DIARY | ONLINE_SHOP</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="crochet_diary.html">Home</a></li>
+        <li><a href="crochet_diary.html">Shop</a></li>
+        <li><a href="login.html" id="loginNav">Log in</a></li>
+        <li><a href="cart.html">🛒 Go to Cart</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Vest -->
+    <div section="vests">
+      <h3 id="shop">~~~ Vest ~~~<br>ベスト</h3>
+
+      <div class="items">
+        <div class="product-card">
+          <a href="items_info.html?category=vest&id=1"><img src="vest/0675088a-5f50-4373-863a-c374f7e5e3b0.jpg" alt="vest_green"></a>
+          <div class="product-info">
+            <h3>Men Vest</h3>
+            <p>¥ 13000</p>
+            <button class="add-to-cart-btn" data-id="vest-1" data-name="Men Vest 1" data-price="13000"
+              data-image="vest/0675088a-5f50-4373-863a-c374f7e5e3b0.jpg">
+              🛒 Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <a href="items_info.html?category=vest&id=2"><img src="vest/23512772-b14d-479e-99f0-3d8f6081a415.jpg" alt="vest_red"></a>
+          <div class="product-info">
+            <h3>Men Vest</h3>
+            <p>¥ 13000</p>
+            <button class="add-to-cart-btn" data-id="vest-2" data-name="Men Vest 2" data-price="13000"
+              data-image="vest/23512772-b14d-479e-99f0-3d8f6081a415.jpg">
+              🛒 Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <a href="items_info.html?category=vest&id=3"><img src="vest/c9ce06d1-5c06-434b-8877-105873a94651.jpg" alt="vest_grey"></a>
+          <div class="product-info">
+            <h3>Men Vest</h3>
+            <p>¥ 13000</p>
+            <button class="add-to-cart-btn" data-id="vest-3" data-name="Men Vest 3" data-price="13000"
+              data-image="vest/c9ce06d1-5c06-434b-8877-105873a94651.jpg">
+              🛒 Add to Cart
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer id="contact">
+    <div class="payment">
+      <h3>Payment Method</h3>
+      <p>We only accept prepaid and <strong>PayPay</strong> as the payment method.<br>
+        If you place an order, we will reply with details by email.
+      </p>
+    </div>
+
+    <div class="delivery">
+      <h3>Delivery Method</h3>
+      <p>Each item will be shipped as described in detail page.<br>
+        Delivery may vary depending on the number of your orders.<br>
+      </p>
+    </div>
+
+    <div class="contact">
+      <h3>Contact</h3>
+      <p>Please contact us anytime.<br>
+        <a href="mailto:crochetdiary2105@gmail.com">crochetdiary2105@gmail.com</a><br>
+        <a href="https://www.instagram.com/crochet.diary_21?igsh=MWczYzEyMXVtNW56aA%3D%3D&utm_source=qr"
+          target="_blank">crochet.diary_21</a>
+      </p>
+    </div>
+
+    <div class="copyRight">
+      <p><small>Copyright &copy; 2025 Crochet Diary. All Rights Reserved.</small></p>
+    </div>
+  </footer>
+
+  <!-- Firebase & EmailJS scripts -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
