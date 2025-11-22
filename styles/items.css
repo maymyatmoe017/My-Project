@@ -95,12 +95,19 @@ header ul li a {
         padding: 10px 20px;
         font-size: 0.9em;
     }
-}
+
 
 main h3 {
     text-align: center;
     padding-top: 30px;
 }
+
+@media (max-width: 768px) {
+  main {
+    align-items: center;
+  }
+}
+
 
 .items {
   background-color: white;
