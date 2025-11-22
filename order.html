@@ -1,49 +1,63 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/form.css">
     <title>CROCHET_DIARY | ONLINE_SHOP</title>
 </head>
+
 <body>
     <header>
         <nav>
-            <ul class="nav-menu">
-                <li><a href="crochet_diary.html">Home</a></li>
-                <li><a href="crochet_diary.html">Shop</a></li>
-                <li><a href="crochet_diary.html" id="loginNav">Log in</a></li>
+            <div class="hamburger" id="hamburger">
+                ☰
+            </div>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="https://chatgpt.com">Home</a></li>
+                <li><a href="#category">Shop</a></li>
+                <li><a href="login.html" id="loginNav">Log in</a></li>
                 <li><a href="cart.html">🛒 Go to Cart</a></li>
-                <li><a href="crochet_diary.html">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>    
+        </nav>
     </header>
 
     <main>
-    <div class="container">
-      <h2>🧶 Order Form</h2>
-      <form id="orderForm">
-        <input type="text" id="orderName" name="orderName" placeholder="Your Name" readonly class="readonly" required>
-        <input type="email" id="orderEmail" name="orderEmail" placeholder="Your Email" readonly class="readonly" required>
-        <input type="text" id="orderTel" name="orderTel" placeholder="Your PhoneNumber" readonly class="readonly" required>
-        <input type="text" id="orderPostal" name="orderPostal" placeholder="Postal Code" readonly class="readonly" required>
-        <input type="text" id="orderAddress" name="orderAddress" placeholder="Your Address" readonly class="readonly" required>
-        <input type="text" id="productName" name="product" placeholder="Product Name" readonly class="readonly" required>
-        <!-- <input type="number" id="quantity" name="quantity" placeholder="Quantity" min="1" required> -->
-        <textarea id="orderDetails" name="orderDetails" placeholder="Write your order details..." required></textarea>
-        <button type="submit">Send Order</button>
-      </form>
-    </div>
+        <div class="container">
+            <h2>🧶 Order Form</h2>
+            <form id="orderForm">
+                <input type="text" id="orderName" name="orderName" placeholder="Your Name" readonly class="readonly"
+                    required>
+                <input type="email" id="orderEmail" name="orderEmail" placeholder="Your Email" readonly class="readonly"
+                    required>
+                <input type="text" id="orderTel" name="orderTel" placeholder="Your PhoneNumber" readonly
+                    class="readonly" required>
+                <input type="text" id="orderPostal" name="orderPostal" placeholder="Postal Code" readonly
+                    class="readonly" required>
+                <input type="text" id="orderAddress" name="orderAddress" placeholder="Your Address" readonly
+                    class="readonly" required>
+                <input type="text" id="productName" name="product" placeholder="Product Name" readonly class="readonly"
+                    required>
+                <!-- <input type="number" id="quantity" name="quantity" placeholder="Quantity" min="1" required> -->
+                <textarea id="orderDetails" name="orderDetails" placeholder="Write your order details..."
+                    required></textarea>
+                <button type="submit">Send Order</button>
+            </form>
+        </div>
     </main>
 
-<!-- Firebase & EmailJS scripts -->
-<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-<script src="script.js"></script>
+    <!-- Firebase & EmailJS scripts -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
 
-<footer id="contact">
-    
-</footer>
+    <footer id="contact">
+
+    </footer>
 </body>
+
 </html>

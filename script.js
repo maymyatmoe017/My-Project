@@ -1,3 +1,15 @@
+//---- for header -----
+
+const hamburger = document.getElementById("hamburger");
+const navMenu = document.getElementById("navMenu");
+
+hamburger.addEventListener("click", () => {
+    navMenu.classList.toggle("show");
+});
+
+
+//---------------------------------------------------------------------------------------------------------
+
 document.addEventListener("DOMContentLoaded", async () => {
   const params = new URLSearchParams(window.location.search);
   const category = params.get("category");
