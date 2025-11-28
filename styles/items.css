@@ -164,8 +164,6 @@ main h3 {
 .product-info h3 {
   color: #cc6699;
   padding-top: 5px;
-  /* margin: 5px 0; */
-  /* margin-bottom: 5px; */
 }
 
 .product-info p {
@@ -191,18 +189,29 @@ main h3 {
   box-shadow: 0 5px 15px rgba(240, 173, 207, 0.4);
 }
 
-/* Responsive for smaller screens */
-@media (max-width: 768px) {
+/* For Mobile view */
+@media (max-width: 600px) {
   .product-card {
-    width: 45%;
-    height: 300px;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
   }
-}
 
-@media (max-width: 480px) {
-  .product-card {
-    width: 90%;
-    height: 300px;
+  .product-info {
+    height: auto;
+  }
+
+  .product-card img {
+    height: 150px; /* smaller image for mobile */
+  }
+
+  .product-info p {
+    font-size: 13px;
+  }
+
+  .product-info button {
+    padding: 8px 16px;
+    font-size: 13px;
   }
 }
 
