@@ -101,14 +101,14 @@ document.addEventListener("DOMContentLoaded", function() {
     const currentUser = JSON.parse(localStorage.getItem("crochetLoggedIn"));
 
     if(currentUser) {
-        loginNav.textContent = `Logout`;
+        loginNav.textContent = `ログアウト`;
         loginNav.removeAttribute("href"); // remove login link
         loginNav.addEventListener("click", function() {
             localStorage.removeItem("crochetLoggedIn");
             location.reload(); // reload to update navbar
         });
     } else {
-        loginNav.textContent = "Log in";
+        loginNav.textContent = "ログイン";
         loginNav.href = "login.html";
     }
 });

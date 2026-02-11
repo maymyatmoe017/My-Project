@@ -3,8 +3,8 @@
     "id": 1,
     "name": "Men Vest Design 1",
     "price": 13000,
-    "waiting": "2 weeks",
-    "colors": "Customize",
+    "waiting": "2 日間",
+    "colors": "カスタマイズ",
     "images": [
       "vest/0675088a-5f50-4373-863a-c374f7e5e3b0.jpg",
       "vest/42d2b10c-48c5-4a20-9308-42b09a057815.jpg",
@@ -16,8 +16,8 @@
     "id": 2,
     "name": "Men Vest Design 2",
     "price": 13000,
-    "waiting": "2 weeks",
-    "colors": "Customize",
+    "waiting": "2 週間",
+    "colors": "カスタマイズ",
     "images": [
       "vest/23512772-b14d-479e-99f0-3d8f6081a415.jpg",
       "vest/76e3a429-3a95-4eae-b984-8be9aa672e41.jpg",
@@ -28,8 +28,8 @@
     "id": 3,
     "name": "Men Vest Design 3",
     "price": 13000,
-    "waiting": "2 weeks",
-    "colors": "Customize",
+    "waiting": "2 週間",
+    "colors": "カスタマイズ",
     "images": [
       "vest/c9ce06d1-5c06-434b-8877-105873a94651.jpg",
       "vest/75019169-fdd2-4093-9e71-74c40a064296.jpg",

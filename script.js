@@ -49,9 +49,9 @@ async function loadProductDetail(category, id) {
 
     titleEl.textContent = product.name;
     infoEl.innerHTML = `
-      Price - ¥${product.price}<br>
-      Waiting time - ${product.waiting}<br>
-      Available color - ${product.colors}
+      価格　: 　${product.price}　円<br>
+      お待ち期間　 :　 ${product.waiting}<br>
+      対象カラー　 :　 ${product.colors}
     `;
 
     // --- Slider functionality ---
@@ -234,14 +234,14 @@ document.addEventListener("DOMContentLoaded", function() {
     const currentUser = JSON.parse(localStorage.getItem("crochetLoggedIn"));
 
     if(currentUser) {
-        loginNav.textContent = `Logout`;
+        loginNav.textContent = `ログアウト`;
         loginNav.removeAttribute("href"); // remove login link
         loginNav.addEventListener("click", function() {
             localStorage.removeItem("crochetLoggedIn");
             location.reload(); // reload to update navbar
         });
     } else {
-        loginNav.textContent = "Log in";
+        loginNav.textContent = "ログイン";
         loginNav.href = "login.html";
     }
 });

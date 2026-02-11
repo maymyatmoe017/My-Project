@@ -3,8 +3,8 @@
     "id": 1,
     "name": "Libra",
     "price": 3000,
-    "waiting": "1 week",
-    "colors": "Customize",
+    "waiting": "1 週間",
+    "colors": "カスタマイズ",
     "images": [
       "amigurumi/8ab0fac4-3bb6-4c65-89c9-f5159f0b37e1.jpg",
       "amigurumi/libra-1.jpg",
@@ -16,8 +16,8 @@
     "id": 2,
     "name": "Sagittarus",
     "price": 3000,
-    "waiting": "1 week",
-    "colors": "Customize",
+    "waiting": "1 週間",
+    "colors": "カスタマイズ",
     "images": [
       "amigurumi/8cd73c6b-83ae-42ff-a301-e596aa20ac60.jpg",
       "amigurumi/sagi-3.jpg",
@@ -30,8 +30,8 @@
     "id": 3,
     "name": "Virgo",
     "price": 3000,
-    "waiting": "1 week",
-    "colors": "Customize",
+    "waiting": "1 週間",
+    "colors": "カスタマイズ",
     "images": [
       "amigurumi/892e62f6-67e9-4693-881e-71b1c46a3407.jpg",
       "amigurumi/virgo-1.jpg"
@@ -42,8 +42,8 @@
     "id": 4,
     "name": "Aquarius",
     "price": 3000,
-    "waiting": "1 week",
-    "colors": "Customize",
+    "waiting": "1 週間",
+    "colors": "カスタマイズ",
     "images": [
       "amigurumi/08974539-6c65-4667-a76d-f2d439d88209.jpg",
       "amigurumi/aquarius-1.jpg",
@@ -55,8 +55,8 @@
     "id": 5,
     "name": "Pisces",
     "price": 3500,
-    "waiting": "1 week",
-    "colors": "Customize",
+    "waiting": "1 週間",
+    "colors": "カスタマイズ",
     "images": [
       "amigurumi/9916408c-4a80-421a-a895-38a5d8bd9a7d.jpg",
       "amigurumi/pisces-1.jpg",
@@ -68,8 +68,8 @@
     "id": 6,
     "name": "Capricon",
     "price": 3000,
-    "waiting": "1 week",
-    "colors": "Customize",
+    "waiting": "1 週間",
+    "colors": "カスタマイズ",
     "images": [
       "amigurumi/b02f2e4b-a8a9-4809-ae72-4dcbac144749.jpg",
       "amigurumi/capricon-1.jpg",
@@ -81,8 +81,8 @@
     "id": 7,
     "name": "Pikachu",
     "price": 3000,
-    "waiting": "1 week",
-    "colors": "Customize",
+    "waiting": "1 週間",
+    "colors": "カスタマイズ",
     "images": [
       "amigurumi/69491123-435f-4851-90a0-b421cea7329d.jpg",
       "amigurumi/pikachu-1.jpg",
@@ -94,8 +94,8 @@
     "id": 8,
     "name": "Bunny",
     "price": 3000,
-    "waiting": "1 week",
-    "colors": "Customize",
+    "waiting": "1 週間",
+    "colors": "カスタマイズ",
     "images": [
       "amigurumi/f85541db-b3cc-4849-a4ce-1b80b22e311b.jpg",
       "amigurumi/bunny-1.jpg",
@@ -107,8 +107,8 @@
     "id": 9,
     "name": "Octopus",
     "price": 2500,
-    "waiting": "3 days",
-    "colors": "Customize",
+    "waiting": "3 日間",
+    "colors": "カスタマイズ",
     "images": [
       "amigurumi/915f58ef-c6ba-45df-bed8-f89a47fe877f.jpg",
       "amigurumi/octopus-1.jpg"
@@ -119,8 +119,8 @@
     "id": 10,
     "name": "Squid",
     "price": 3000,
-    "waiting": "3 days",
-    "colors": "Customize",
+    "waiting": "3 日間",
+    "colors": "カスタマイズ",
     "images": [
       "amigurumi/86b77497-da00-45d0-b1c4-4ec64aefa6e8.jpg",
       "amigurumi/squid-1.jpg",
@@ -132,8 +132,8 @@
     "id": 11,
     "name": "Minion",
     "price": 3000,
-    "waiting": "4 days",
-    "colors": "Customize",
+    "waiting": "4 日間",
+    "colors": "カスタマイズ",
     "images": [
       "amigurumi/bde4d330-a5aa-4e23-82aa-908f6eddf275.jpg",
       "amigurumi/minion-1.jpg",
@@ -145,8 +145,8 @@
     "id": 12,
     "name": "Bee",
     "price": 2500,
-    "waiting": "3 days",
-    "colors": "Customize",
+    "waiting": "3 日間",
+    "colors": "カスタマイズ",
     "images": [
       "amigurumi/e5772105-3cbe-41eb-9403-1c529c7542fb.jpg",
       "amigurumi/bee-1.jpg",

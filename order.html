@@ -16,35 +16,32 @@
             </div>
 
             <ul class="nav-menu" id="navMenu">
-                <li><a href="crochet_diary.html">Home</a></li>
-                <li><a href="crochet_diary.html">Shop</a></li>
-                <li><a href="login.html" id="loginNav">Log in</a></li>
-                <li><a href="cart.html">🛒 Go to Cart</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="crochet_diary.html">ホーム</a></li>
+                <li><a href="crochet_diary.html">ショップ</a></li>
+                <li><a href="login.html" id="loginNav">ログイン</a></li>
+                <li><a href="cart.html">🛒 ショッピングカート</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <div class="container">
-            <h2>🧶 Order Form</h2>
+            <h2>🧶 ご注文フォーム</h2>
             <form id="orderForm">
-                <input type="text" id="orderName" name="orderName" placeholder="Your Name" readonly class="readonly"
+                <input type="text" id="orderName" name="orderName" placeholder="名前" readonly class="readonly" required>
+                <input type="email" id="orderEmail" name="orderEmail" placeholder="メール" readonly class="readonly"
                     required>
-                <input type="email" id="orderEmail" name="orderEmail" placeholder="Your Email" readonly class="readonly"
+                <input type="text" id="orderTel" name="orderTel" placeholder="電話番号" readonly class="readonly" required>
+                <input type="text" id="orderPostal" name="orderPostal" placeholder="郵便番号" readonly class="readonly"
                     required>
-                <input type="text" id="orderTel" name="orderTel" placeholder="Your PhoneNumber" readonly
-                    class="readonly" required>
-                <input type="text" id="orderPostal" name="orderPostal" placeholder="Postal Code" readonly
-                    class="readonly" required>
-                <input type="text" id="orderAddress" name="orderAddress" placeholder="Your Address" readonly
-                    class="readonly" required>
-                <input type="text" id="productName" name="product" placeholder="Product Name" readonly class="readonly"
+                <input type="text" id="orderAddress" name="orderAddress" placeholder="住所" readonly class="readonly"
                     required>
+                <input type="text" id="productName" name="product" placeholder="商品名" readonly class="readonly" required>
                 <!-- <input type="number" id="quantity" name="quantity" placeholder="Quantity" min="1" required> -->
-                <textarea id="orderDetails" name="orderDetails" placeholder="Write your order details..."
+                <textarea id="orderDetails" name="orderDetails" placeholder="カラー・サイズなど、ご注文内容をご記入ください。"
                     required></textarea>
-                <button type="submit">Send Order</button>
+                <button type="submit">注文する</button>
             </form>
         </div>
     </main>
